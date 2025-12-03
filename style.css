@@ -12,22 +12,42 @@ header {
 }
 /*creates a flex display for all the items in the header (logo and navigation bar)*/
 
-nav {
+.buttonContainer {
     display: flex;
     flex-direction: row;
-    gap: 20px;
 }
-/* creates another flex for the naviagtion buttions. 
-Added a gap so the borders wont overlap with each other.  */
+/* Creates a container using flex */
 
-
-
-nav a {
+.button a {
     background-color: #e6e6e6;
     padding: 8px 14px;
+    margin-right: 5px;
+    margin-left: 5px;
     border-radius: 4px;
     text-decoration: none;
     color: black;
+    display: inline-block;
 }
-/* removed the hyperlink visuals by called none text decoration. Text color set to black.  */
-/* added background, border and padding to each item (button)  */
+
+article {
+    margin-right: 75px;
+}
+article a {
+    font-size: 20px;
+}
+/*background color sets to gray, gives padding between all elements (text), 
+addes a border and removes hyperlink visuals*/
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.ab {
+    display: flex;
+    flex-direction: row;
+
+}
