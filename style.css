@@ -49,5 +49,30 @@ addes a border and removes hyperlink visuals*/
 .ab {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 
+}
+.about {
+    padding: 40px 30px;
+    border-top: 1px solid #ccc;
+}
+
+.projects {
+    padding: 40px 30px;
+    border-top: 1px solid #ccc;
+    text-align: center;
+}
+
+.projectDis {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.contacts {
+    padding: 40px 30px;
+    border-top: 1px solid #ccc;
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
 }
