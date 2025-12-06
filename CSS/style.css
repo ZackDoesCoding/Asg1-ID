@@ -19,8 +19,6 @@ header nav a {
     color: #fff;
     text-decoration: none;
     font-size: 20px;
-    opacity: 0.8;
-    transition: 0.2s;
 }
 /*----------------------------------------*/
 
@@ -89,35 +87,94 @@ header nav a {
 }
 .AchvMilestones {
     border: 1px solid #fff;
-    max-width: 100px;
-    padding: 15px 25px;
+    width: 120px;
+    height: 120px;
+    padding: 15px 20px 15px 20px;
     border-radius: 6px;
     background-color: #000000;
     color: #fff;
     text-decoration: none;
     text-align: center;
+    font-size: 18px;
 }
 /*----------------------------------------*/
 
 /* PROJECTS SECTION */
 .projects {
-    padding: 70px 50px;
+    padding: 70px 10px;
     text-align: center;
 }
 .projects h2 {
     font-size: 40px;
 }
+.projectContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
 
 .projectDisplay {
     margin-top: 30px;
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
 }
 
 .projectDisplay p{
     font-size: 25px;
     font-weight: bold;
-    padding-bottom: 20;
+    padding-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+/*----------------------------------------*/
+
+
+
+/* CONTACTS SECTION */
+.contact {
+    padding: 80px 80px;
+}
+
+.contact h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.Container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.contactMain {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ContactDetail {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.ContactDetail p {
+    margin: 0;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.contactSocials {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    font-size: 26px;
+    padding-right: 50px;
+}
+/*----------------------------------------*/
+
+/*FOOTER MAIN CSS*/
+footer {
+    text-align: center;
+    padding: 25px;
+    opacity: 0.6;
 }
 /*----------------------------------------*/
