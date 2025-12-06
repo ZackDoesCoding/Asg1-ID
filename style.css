@@ -18,13 +18,9 @@ header nav a {
     margin-left: 30px;
     color: #fff;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 20px;
     opacity: 0.8;
     transition: 0.2s;
-}
-
-header nav a:hover {
-    opacity: 1;
 }
 /*----------------------------------------*/
 
@@ -32,14 +28,23 @@ header nav a:hover {
 /*INTRO MAIN CSS*/
 .intro {
     padding: 100px 50px;
-    max-width: 900px;
+    background-image: 
+        linear-gradient(to bottom, rgba(0,0,0,0) 40%, rgba(0,0,0,1) 95%),
+        url("BackgroundHome.jpg");
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    z-index: 1;
 }
 .intro h1 {
     font-size: 48px;
     margin-bottom: 20px;
 }
+.intro p {
+    font-size: 18;
+}
 .introButtons {
-    margin-top: 25px;
+    margin-top: 30px;
 }
 /*----------------------------------------*/
 
@@ -52,72 +57,41 @@ header nav a:hover {
     color: #fff;
     text-decoration: none;
 }
+/*----------*/
 
-
-
-
-
-
-
-
-
-
-
-
-/*-------------------------------------------
-article {
-    margin-right: 75px;
-}
-
-article a {
-    font-size: 20px;
-}
-
-.intro {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 40px 80px;
-    gap: 40px;
-}
-
-.aboutDis {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: 40px;
-    padding: 20px 80px;
-}
-
-.ABDescriptionDis {
-    display: flex;
-    flex-direction: row;
-}
-.ABDescriptionDis p {
-    text-align: center;
-}
-
-
-
+/* ABOUT SECTION */
 .about {
-    margin-left: 50px;
-    padding: 40px 30px;
+    padding: 70px 50px;
+    display: flex;
+    align-items: flex-start; 
+    gap: 400px;                     
 }
-
-.projects {
-    padding: 40px 30px;
+.aboutMain h2 {
+    font-size: 30px
+}
+.aboutMain p {
+    font-size: 20;
+    max-width: 450px;
+    font-weight: bold;
+}
+.achievements h2{
     text-align: center;
+    font-size: 30px;
 }
-
-.projectDis {
+.achievImgContainer{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    gap: 100px;
 }
-
-.contacts {
-    padding: 40px 30px;
-    display: flex;
-    justify-content: space-around;
-    gap: 40px;
-}*/
+.AchvMilestones {
+    border: 1px solid #fff;
+    max-width: 100px;
+    padding: 15px 25px;
+    border-radius: 6px;
+    background-color: #000000;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+/*----------------------------------------*/
