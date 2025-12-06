@@ -11,7 +11,9 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 25px 50px;
-    background: #000;
+    background: black;
+    position: fixed;
+    width: 94%;
 }
 
 header nav a {
@@ -21,11 +23,11 @@ header nav a {
     font-size: 20px;
 }
 /*----------------------------------------*/
-
-
 /*INTRO MAIN CSS*/
 .intro {
+
     padding: 70px 50px;
+    padding-top: 150px;
     background-image: 
         linear-gradient(to bottom, rgba(0,0,0,0) 40%, rgba(0,0,0,1) 95%),
         url("BackgroundHome.jpg");
@@ -47,7 +49,6 @@ header nav a {
     gap: 20px;
 }
 /*----------------------------------------*/
-
 
 /*BUTTON CSS*/
 .button {
@@ -125,8 +126,6 @@ header nav a {
     margin-right: 0px;
 }
 /*----------------------------------------*/
-
-
 
 /* CONTACTS SECTION */
 .contact {
