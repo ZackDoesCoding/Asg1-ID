@@ -3,59 +3,127 @@
 Github link: https://github.com/ZackDoesCoding/Asg1-ID
 Github page: https://zackdoescoding.github.io/Asg1-ID/
 
-Z-STUDIOS WEBSITE
+Z-Studios GameDev Website
 
-One or two paragraphs providing an overview of your project. Tell us about your project.
+    Z-Studios Interactive Portfolio Website
 
-Essentially, this part is your sales pitch.
+My website Z-Studios is a fully functioning website that showcases my interactive design, multimedia and game development work via a fully responsive format. The goal was to create a clean modern dark interface while providing maximum usability and a professional presentation of my work.
+The project focuses on providing intuitive navigation for users to find accessible content in a structured manner with visual elements that align with my personal brand.
 
-Design Process
-Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+The website is a platform for potential employers, business partners and/or instructors to view my creative works, capabilities and direction. It will provide a strong first impression by utilizing a professional UI, thoughtful layout and structured project presentation.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
+----------------------------------------------------------------------------------------------------------------------------
 
-As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory) Include the Adobe XD wireframe as a folder. You can include the XD share url.
+    Design Process
 
-Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+The design process followed a user-centred approach, focusing on understanding the needs of the site’s three primary user groups:
 
-Existing Features
-Feature 1 - allows users X to achieve Y, by having them fill out Z
-...
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+Recruiters looking for clear, quickly accessible project samples.
+Viewers looking for intuitive navagition and a user friendly experience.
+Collaborators assessing my skillset and creative style.
 
-Features Left to Implement
-Another feature idea
-Technologies Used
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+A series of wireframes and mockups were created for both desktop and mobile to ensure consistency and responsiveness.
 
-JQuery
-The project uses JQuery to simplify DOM manipulation.
-Testing
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+    User Stories
 
-Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+As a recruiter, I want to view projects quickly so I can assess the creator’s skills.
+As a collaborator, I want to see organized and visually compelling work so I can work effectively.
+As a mobile user, I want a responsive layout so I can browse without zooming or scrolling sideways.
+As a viewer, I want intuitive navigation so I can move through sections without confusion.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+    Wireframe
+(first website iteration)
+https://chatgpt.com/share/6922b5c8-1980-800f-b7af-9cab73466c6c
+https://www.figma.com/design/qQ1LmyMD87fdc3Q7JOOkd2/Untitled?node-id=0-1&t=PSbVrzI4lKDbPgT2-1
+(second website iteration)
+https://www.figma.com/design/UGfQG2NnvxmkGMS5izjD2X/ID-ASG1-WIREFRAME?node-id=0-1&t=ftQM26G6uhDYQpwK-1
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+----------------------------------------------------------------------------------------------------------------------------
 
-Credits
+    Features
+    Existing Features
 
- 
-Content
-The text for section Y was copied from the Wikipedia article Z
+Responsive Navigation Bar – consistent across devices, easy to use.
+Homepage Banner – visually engaging introduction to the brand.
+About Section – describes the brand and mission.
+Projects Gallery – displays project thumbnails with descriptions.
+Contact Section – direct access to contact details.
+Mobile-Friendly Layout – flexible grid and stack layouts.
+Cross-browser compatibility – validated on Chrome, Firefox, Safari, and Edge.
+Clean Code Structure - Clean and organized Html & CSS.
 
+    Features Left to Implement
 
-Media
-The photos used in this site were obtained from ...
+Project detail subpages
+Light/Dark theme toggle
+Smooth scrolling animations
 
+--------------------------------------------------------------
 
-Acknowledgements
-I received inspiration for this project from X
+    Technologies Used
+
+W3E Schools     https://www.w3schools.com
+	Learn about new code and applications.
+
+Normalize.css	https://necolas.github.io/normalize.css/
+	Ensures cross-browser consistency.
+
+Geek for geeks	https://www.geeksforgeeks.org
+	Javascript implementation.
+
+Git & GitHub	https://github.com
+	Version control and documentation.
+
+Figma           https://www.figma.com/
+    Wireframe creation.
+
+ChatGPT         https://chatgpt.com
+    Image Generation.
+
+--------------------------------------------------------------
+
+    Testing
+
+Manual Test Scenarios
+
+    Navigation Bar
+All links route correctly across all pages.
+Navbar behaves properly on mobile (collapses/adjusts layout).
+
+    Responsiveness
+Tested at breakpoints: 1440px, 1024px, 768px, 480px, 375px.
+Images and containers resize cleanly.
+No horizontal scrolling on mobile.
+
+    Content Interaction
+Hero image scales proportionally.
+Buttons and links are readable and clickable across devices.
+
+    Known Bugs
+Extreme zoom levels may cause spacing distortions.
+Device widths below 330px can cause text wrapping inconsistencies.
+
+--------------------------------------------------------------
+
+    Credits
+    Content and Media
+All text and Images are AI generated.
+Site mockups generated using AI (ChatGPT).
+The logo for website is made by myself.
+
+    Icon sources
+https://www.flaticon.com/free-icon/youtube_1077046?term=youtube&page=1&position=7&origin=search&related_id=1077046
+https://www.flaticon.com/free-icon/instagram_1077042?term=instagram&page=1&position=5&origin=search&related_id=1077042
+https://www.flaticon.com/free-icon/twitter_220375?term=twitter&page=1&position=16&origin=search&related_id=220375
+https://www.flaticon.com/free-icon/email_542638?term=mail&page=1&position=4&origin=search&related_id=542638
+https://www.flaticon.com/free-icon/phone-receiver-silhouette_1257?term=phone&page=1&position=11&origin=search&related_id=1257
+https://www.flaticon.com/free-icon/pin_927667?term=location&page=1&position=14&origin=search&related_id=927667
+
+    Acknowledgements
+Inspired by modern UI design portfolios and dark-themed tech aesthetics.
+ChatGPT created wireframes which i then took to refine into the current website.
+Some sites Chat GPT has based it off of:
+    Apple.com – clean hero layout, large visuals, minimal text.
+    Behance.net – project grid structure and card styling.
+    Strava.com – strong call-to-action sections + modern section spacing.
+    Notion.so – simple lines, breathable spacing, clean typography.
