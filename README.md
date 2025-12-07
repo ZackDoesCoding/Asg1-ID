@@ -36,7 +36,7 @@ As a viewer, I want intuitive navigation so I can move through sections without 
 https://chatgpt.com/share/6922b5c8-1980-800f-b7af-9cab73466c6c
 https://www.figma.com/design/qQ1LmyMD87fdc3Q7JOOkd2/Untitled?node-id=0-1&t=PSbVrzI4lKDbPgT2-1
 (second website iteration)
-https://www.figma.com/design/UGfQG2NnvxmkGMS5izjD2X/ID-ASG1-WIREFRAME?node-id=0-1&t=ftQM26G6uhDYQpwK-1
+https://www.figma.com/design/UGfQG2NnvxmkGMS5izjD2X/ID_S10274404J_ZweThantSin_Assg1_wireframe?t=PSbVrzI4lKDbPgT2-1
 
 ----------------------------------------------------------------------------------------------------------------------------
 
