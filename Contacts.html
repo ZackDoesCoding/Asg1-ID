@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="CSS/normalize.css">
     <link rel="stylesheet" href="CSS/MainStyle.css">
-    <script src="my_script.js" defer></script> 
+    <script src="Javascript/Contactscript.js"></script> 
 </head>
 
 <body>
@@ -28,10 +28,11 @@
     <div class="contactContent">
         <div class="contactForm">
             <h2>Send Us a Message</h2>
-            <input type="text" placeholder="Name" class="contactInput">
-            <input type="email" placeholder="Email" class="contactInput">
-            <textarea placeholder="Message" class="contactInput textarea"></textarea>
-            <button class="contactButton"> Send </button>
+            <input id="nameInput" type="text" placeholder="Name" class="contactInput">
+            <input id="emailInput" type="email" placeholder="Email" class="contactInput">
+            <textarea id="messageInput" placeholder="Message" class="contactInput textarea"></textarea>
+            <button id="sendButton" class="contactButton"> Send </button>
+            <p id="formMessage" class="formMessage"></p>
         </div>
 
         <div class="contactInfo">
@@ -57,7 +58,7 @@
     </section>
 
     <footer class="footer">
-    <div class="Container">
+    <div class="FooterContainer">
         <div class="contactMain">
             <p>© 2025 Z-Studios. All rights reserved.</p>
         </div>
