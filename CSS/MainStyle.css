@@ -46,7 +46,9 @@ header {
     width: 93%;
     z-index: 1000;
 }
-
+header img {
+    width: 150px;
+}
 header nav a {
     margin-left: 30px;
     color: #fff;
@@ -163,22 +165,23 @@ header nav a {
     padding: 70px 70px;
     padding-bottom: 20px;
 }
-
 .contactHome h2 {
     font-size: 30px;
     margin-bottom: 30px;
 }
-
 .ContactDetail {
     display: flex;
     align-items: center;
     gap: 10px;
 }
-
 .ContactDetail p {
     margin: 0;
     padding-left: 10px;
     font-size: 20px;
+}
+.ContactDetail img {
+    width: 30px;
+    height: 30px;
 }
 
 /* =========================================
@@ -198,7 +201,7 @@ header nav a {
     font-size: 30px;
     margin-bottom: 30px;
 }
-/*----------------------------------------*/
+
 
 /*About Body CSS*/
 .AboutDisplay {
@@ -276,6 +279,7 @@ header nav a {
 /* =========================================
    CONTACT SUB WEBPAGE
 ========================================= */
+/* Contact Header */
 .contactPage {
     padding: 33px 70px;
     padding-top: 100px;
@@ -288,6 +292,7 @@ header nav a {
     font-size: 30px;
     margin-bottom: 30px;
 }
+
 /* CONTACT MAIN CSS */
 .contactContent {
     display: flex;
@@ -408,7 +413,7 @@ footer {
         font-size: 18px;
     }
 
-    /* INTRO SECTION */
+    /* HOME INTRO */
     .intro {
         padding: 120px 20px 50px 20px;
     }
@@ -424,7 +429,7 @@ footer {
         align-items: center;
     }
 
-    /* HOME — ABOUT SECTION */
+    /* HOME ABOUT */
     .aboutHome {
         flex-direction: column;
         text-align: center;
@@ -445,7 +450,7 @@ footer {
         font-size: 18px;
     }
 
-    /* HOME — PROJECTS */
+    /* HOME PROJECTS */
     .HMprojectDisplay {
         width: 90%;
     }
@@ -454,9 +459,9 @@ footer {
     }
 
 
-    /* ABOUT SUBPAGE */
+    /* ABOUT WEBPAGE */
     .AboutDisplay {
-        flex-direction: column !important;
+        flex-direction: column;
         text-align: center;
         gap: 40px;
     }
@@ -471,7 +476,7 @@ footer {
     }
 
 
-    /* PROJECTS PAGE */
+    /* PROJECTS WEBPAGE */
     .projectsContainer {
         flex-direction: column;
         align-items: center;
@@ -484,7 +489,7 @@ footer {
     }
 
 
-    /* CONTACT PAGE */
+    /* CONTACT WEBPAGE */
     .contactPage {
         padding: 80px 20px;
     }
