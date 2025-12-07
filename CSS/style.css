@@ -39,6 +39,7 @@ header nav a {
 .intro {
     padding: 70px 50px;
     padding-top: 140px;
+    height: 400px;
     background-image: 
         linear-gradient(to bottom, rgba(0,0,0,0) 40%, rgba(0,0,0,1) 95%),
         url("BackgroundHome.jpg");
@@ -52,7 +53,7 @@ header nav a {
     margin-bottom: 20px;
 }
 .intro p {
-    font-size: 20;
+    font-size: 30px;
 }
 .introButtons {
     display: flex;

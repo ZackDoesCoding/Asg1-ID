@@ -12,7 +12,6 @@ p {
     line-height: 1.5;
 }
 
-
 /*HEADER MAIN CSS*/
 header {
     display: flex;
@@ -36,6 +35,23 @@ header nav a {
 }
 /*----------------------------------------*/
 
+/*ABOUT MAIN CSS*/
+.about{
+    padding: 70px 50px;
+    padding-top: 100px;
+}
+
+.about h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.about p {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+/*----------------------------------------*/
+
 /*BUTTON CSS*/
 .button {
     border: 1px solid #fff;
@@ -45,63 +61,7 @@ header nav a {
     font-size: 20px;
     text-decoration: none;
 }
-.buttonPRJ {
-    border: 1px solid #fff;
-    padding: 10px 20px;
-    border-radius: 8px;
-    color: #fff;
-    font-size: 15px;
-    text-decoration: none;
-}
 /*----------*/
-
-/* PROJECTS HEADER SECTION */
-.Projects{
-    padding: 70px 50px;
-    padding-top: 100px;
-}
-
-.ProjectHeader h1 {
-    font-size: 60px;
-    margin-bottom: 10px;
-}
-
-.ProjectHeader p {
-    font-size: 30px;
-    margin-bottom: 30px;
-}
-/*----------------------------------------*/
-
-/* PROJECTS MAIN BODY SECTION */
-.projectsContainer {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 40px;
-}
-
-.projectDisplay {
-    width: 30%;    
-    min-width: 300px;  
-    text-align: center;
-    margin-top: 30px;
-}
-
-.projectDisplay p{
-    font-size: 15px;
-    padding-bottom: 20px;
-    margin-left: 0px;
-    margin-right: 0px;
-}
-
-.projectDisplay img {
-    width: 100%;    
-    height: 250px; 
-    object-fit: cover;
-    border-radius: 8px;
-}
-
-/*----------------------------------------*/
 
 /* FOOTER SECTION */
 .Container {
