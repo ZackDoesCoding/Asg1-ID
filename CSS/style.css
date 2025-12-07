@@ -71,7 +71,7 @@ header nav a {
     font-size: 20px;
     text-decoration: none;
 }
-/*----------*/
+/*----------------------------------------*/
 
 /* ABOUT SECTION */
 .about {
@@ -151,6 +151,7 @@ header nav a {
 /* CONTACTS SECTION */
 .contact {
     padding: 70px 70px;
+    padding-bottom: 20px;
 }
 
 .contact h2 {
@@ -192,9 +193,12 @@ header nav a {
 /*----------------------------------------*/
 
 /*FOOTER MAIN CSS*/
+.FooterIcon{
+    width: 30px;
+    opacity: 0.9;
+}
 footer {
     text-align: center;
-    padding: 25px;
-    opacity: 0.7;
+    opacity: 0.8;
 }
 /*----------------------------------------*/

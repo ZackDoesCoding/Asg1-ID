@@ -12,6 +12,7 @@ p {
     line-height: 1.5;
 }
 
+
 /*HEADER MAIN CSS*/
 header {
     display: flex;
@@ -34,48 +35,86 @@ header nav a {
 }
 /*----------------------------------------*/
 
-/*About Header CSS*/
-.about{
-    padding: 70px 70px;
+/* CONTACT HEADER CSS */
+.contactPage {
+    padding: 33px 70px;
     padding-top: 100px;
 }
-.AboutHeader h1 {
+.contactPage h1 {
     font-size: 60px;
     margin-bottom: 10px;
 }
-.AboutHeader p {
+.contactPage p {
     font-size: 30px;
     margin-bottom: 30px;
 }
 /*----------------------------------------*/
 
-/*About Body CSS*/
-.AboutDisplay {
+/* CONTACT MAIN CSS */
+.contactContent {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: 60px;
-    margin-bottom: 120px;
+    justify-content: space-between;
+    gap: 80px;
 }
-.AboutPara {
-    width: 70%;
-    max-width: 600px; 
+.contactForm {
+    width: 50%;
 }
-.AboutPara p{
-    font-size: 20px;
-}
-.AboutPara h2 {
-    font-size: 35px;
+.contactForm h2 {
+    font-size: 25px;
     margin-bottom: 20px;
 }
-.aboutImg {
+
+/* TEXT INPUT */
+.contactInput{
     width: 100%;
-    max-width: 500px;
-    height: auto;
+    background: #1a1a1a;
+    border: 1px solid #333;
+    padding: 15px;
+    font-size: 15px;
+    color: #fff;
     border-radius: 8px;
+    margin-bottom: 15px;
 }
-.reverse {
-    flex-direction: row-reverse;
+.textarea {
+    height: 150px;
+    resize: none;
+}
+
+/* SEND BUTTON */
+.contactButton {
+    width: 100%;
+    padding: 12px;
+    background: #fff;
+    color: #000;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+}
+/*----------------------------------------*/
+
+
+/* CONTACT INFO */
+.contactInfo {
+    width: 40%;
+}
+.contactInfo h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.infoRow {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+.infoRow p {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 20px;
+}
+.infoIcon {
+    width: 30px;
 }
 /*----------------------------------------*/
 
