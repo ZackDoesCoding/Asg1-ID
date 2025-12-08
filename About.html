@@ -6,31 +6,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!--- Initilize CSS and Normalization -->
+    <!-- External CSS file initilization -->
     <link rel="stylesheet" href="CSS/normalize.css">
     <link rel="stylesheet" href="CSS/style.css">
 </head>
 
 <body>
+    <!-- Header / Navigation bar -->
     <header>
         <div>
-            <img src="ProjImg/Logo.png" alt="Z-Studios Logo">
+            <!-- Brand Logo -->
+            <img src="ProjectImages/Logo.png" alt="Z-Studios Logo">
         </div>
+
+        <!-- Main Navigation Menu -->
         <nav>
             <a href="index.html">Home</a>
             <a href="Projects.html">Projects</a>
-            <a href="#" class="highlight">About</a>
+            <!-- Current page highlighted -->
+            <a href="About.html" class="highlight">About</a>
             <a href="Contacts.html">Contacts</a>
         </nav>
     </header>
+
+    <!--  Main About Page -->
     <main class="about">
+
+        <!-- About Page Header -->
         <section class="AboutHeader">
             <h1>About Us</h1>
-            <p> Learn more about Z-Studios, our mission, and the creative minds 
+            <p> 
+                Learn more about Z-Studios, our mission, and the creative minds 
                 behind our games and experiences.
             </p>
         </section>
 
+        <!--  Who We Are message and image -->
         <section class="AboutDisplay">
             <div class="AboutPara">
                 <h2>Who We Are</h2>
@@ -44,13 +55,14 @@
                     and a deep respect for our players's imagination.
                 </p>
             </div>
-            <div>
-                <img src="ProjImg/Project2.png" class="aboutImg" alt="Quest for the World Tree">
-            </div>
-            
 
+            <!-- Supporting Image -->
+            <div>
+                <img src="ProjectImages/QuestFTW.png" class="aboutImg" alt="Quest for the World Tree">
+            </div>
         </section>
 
+        <!-- Our Mission message and image -->
         <section class="AboutDisplay reverse">
             <div class="AboutPara">
                 <h2>Our Mission</h2>
@@ -64,24 +76,30 @@
                 </p>
             </div>
 
+            <!-- Supporting Image -->
             <div>
-                <img src="ProjImg/Project7.png" class="aboutImg" alt="Overborn Horizons">
+                <img src="ProjectImages/GreatBJ.png" class="aboutImg" alt="Great Beyond Journey">
             </div>
         </section>
         
     </main>
 
+    <!-- Footer Section -->
     <footer class="footer">
-    <div class="FooterContainer">
-        <div class="contactMain">
-            <p>© 2025 Z-Studios. All rights reserved.</p>
+        <div class="FooterContainer">
+
+            <!-- Copyright message -->
+            <div class="contactMain">
+                <p>© 2025 Z-Studios. All rights reserved.</p>
+            </div>
+
+            <!-- Social Media Links (links to default homepage) -->
+            <div class="contactSocials">
+                <a href="https://www.youtube.com/"><img src="Icons/youtube.png" class="FooterIcon" alt="Youtube"></a>
+                <a href="https://www.instagram.com/"><img src="Icons/instagram.png" class="FooterIcon" alt="Instagram"></a>
+                <a href="https://x.com/"><img src="Icons/twitter.png" class="FooterIcon" alt="Twitter"></a>
+            </div>
         </div>
-        <div class="contactSocials">
-            <a href="https://www.youtube.com/"><img src="Icons/youtube.png" class="FooterIcon" alt="Youtube"></a>
-            <a href="https://www.instagram.com/"><img src="Icons/instagram.png" class="FooterIcon" alt="Instagram"></a>
-            <a href="https://x.com/"><img src="Icons/twitter.png" class="FooterIcon" alt="Twitter"></a>
-        </div>
-    </div>
     </footer>
 </body>
 

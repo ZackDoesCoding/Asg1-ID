@@ -2,40 +2,65 @@
 <html lang="en">
 <head> 
     <title>Z-Studios</title>
+
+    <!-- Character encoding and responsive scaling -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- External CSS file initilization -->
     <link rel="stylesheet" href="CSS/normalize.css">
     <link rel="stylesheet" href="CSS/style.css">
+
+    <!-- JavaScript for contact form validation/message handling -->
     <script src="Javascript/Contactscript.js"></script> 
 </head>
 
 <body>
+
+    <!-- Header / Navigation bar -->
     <header>
         <div>
-            <img src="ProjImg/Logo.png" alt="Z-Studios Logo">
+            <!-- Brand Logo -->
+            <img src="ProjectImages/Logo.png" alt="Z-Studios Logo">
         </div>
+
+        <!-- Main Navigation Menu -->
         <nav>
             <a href="index.html">Home</a>
             <a href="Projects.html">Projects</a>
             <a href="About.html">About</a>
-            <a href="#" class="highlight">Contacts</a>
+            <!-- Highlight indicates current active page -->
+            <a href="Contacts.html" class="highlight">Contacts</a>
         </nav>
     </header>
     
+    <!--  Main Content Page -->
     <section class="contactPage">
     <h1>Contacts</h1>
     <p>Get in touch with us for any questions or inquiries.</p>
 
+    <!-- Contact Form Section -->
     <div class="contactContent">
         <div class="contactForm">
             <h2>Send Us a Message</h2>
+
+            <!-- Name Field -->
             <input id="nameInput" type="text" placeholder="Name" class="contactInput">
+
+            <!-- Email Field -->
             <input id="emailInput" type="email" placeholder="Email" class="contactInput">
+
+            <!-- Message Field -->
             <textarea id="messageInput" placeholder="Message" class="contactInput textarea"></textarea>
+
+            <!-- Submit Button -->
             <button id="sendButton" class="contactButton"> Send </button>
+
+            <!-- Message Feedback Area -->
             <p id="formMessage" class="formMessage"></p>
         </div>
 
+        <!-- Contact Information -->
         <div class="contactInfo">
             <h2>Contact Information</h2>
 
@@ -58,18 +83,24 @@
     </div>
     </section>
 
+    <!-- Footer Section -->
     <footer class="footer">
-    <div class="FooterContainer">
-        <div class="contactMain">
-            <p>© 2025 Z-Studios. All rights reserved.</p>
+        <div class="FooterContainer">
+
+            <!-- Copyright message -->
+            <div class="contactMain">
+                <p>© 2025 Z-Studios. All rights reserved.</p>
+            </div>
+
+            <!-- Social Media Links (links to default homepage) -->
+            <div class="contactSocials">
+                <a href="https://www.youtube.com/"><img src="Icons/youtube.png" class="FooterIcon" alt="Youtube"></a>
+                <a href="https://www.instagram.com/"><img src="Icons/instagram.png" class="FooterIcon" alt="Instagram"></a>
+                <a href="https://x.com/"><img src="Icons/twitter.png" class="FooterIcon" alt="Twitter"></a>
+            </div>
         </div>
-        <div class="contactSocials">
-            <a href="https://www.youtube.com/"><img src="Icons/youtube.png" class="FooterIcon" alt="Youtube"></a>
-            <a href="https://www.instagram.com/"><img src="Icons/instagram.png" class="FooterIcon" alt="Instagram"></a>
-            <a href="https://x.com/"><img src="Icons/twitter.png" class="FooterIcon" alt="Twitter"></a>
-        </div>
-    </div>
     </footer>
+
 </body>
 
 </html>
